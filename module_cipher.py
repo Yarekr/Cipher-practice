@@ -2,7 +2,7 @@
 code = {"a": "y", "A": "Y", "E": "I", "e": "i", "I": "O", "i": "o", "O": "A", "o": "a", "Y": "E", "y": "e"}
 code2 = {"y": "a", "Y": "A", "I": "E", "i": "e", "O": "I", "o": "i", "A": "O", "a": "o", "E": "Y", "e": "y"}
 
-operation = input ("wybierz operację : szyfrowanie, deszyfr, wyjscie : ")
+operation = input ("wybierz operację : szyfrowanie, deszyfrowanie, wyjscie : ")
 print('---------------------')
 
 while operation == 'szyfrowanie':
@@ -20,7 +20,7 @@ while operation == 'szyfrowanie':
     operation = input("wybierz operację : szyfrowanie, deszyfrowanie, wyjscie : ")
     print('---------------------')
 
-while operation == 'deszyfr':
+while operation == 'deszyfrowanie':
     print('podaj zdanie do odszyfrowania: ')
     txt = input()
     result = ""
@@ -31,7 +31,7 @@ while operation == 'deszyfr':
             result += letter
     print("Wynik: "+result)
 
-    operation = input("wybierz operację : szyfrowanie, deszyfr, wyjscie : ")
+    operation = input("wybierz operację : szyfrowanie, deszyfrowanie, wyjscie : ")
     print('---------------------')
 
 
